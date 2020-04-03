@@ -1,0 +1,17 @@
+$top-spacing:  4.5rem;
+$bottom-spacing:  1rem;
+
+// Adds padding to the top of the body to account for fixed navbar
+body {
+  padding-top: $top-spacing;
+}
+
+.sidebar-fixed-top {
+  position: fixed;
+  top: $top-spacing;
+}
+
+.sidebar-fixed-bottom {
+  position: fixed;
+  bottom: $bottom-spacing;
+}
