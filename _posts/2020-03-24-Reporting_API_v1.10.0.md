@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reporting API v1.10.0
-tag: reporting
+tag: Reporting
 author: AxiaMed
 ---
 The Reporting API endpoint is being updated to add check status response, improve error responses, and expand the date window for transactions results.
