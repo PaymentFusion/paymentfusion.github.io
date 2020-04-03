@@ -19,26 +19,28 @@
   </head>
   <body>
     {% include navbar.html %}
-    <div class="container">
-      <div class="row mb-1">
-        <div class="col">
-          {{ content }}
+    <div id="page-wrapper">
+      <div class="container-md pt-3">
+        <div class="row mb-1">
+          <div class="col">
+            {{ content }}
+          </div>
         </div>
-      </div>
-      <div class="row">
-        {% for tag in site.tags %}
-        <div class="col-4">
-          <div class="card mb-3">
-            <div class="card-header">
-              <h5 class="mb-0">{{ tag[0]  | capitalize }}</h5>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          {% for tag in site.tags %}
+          <div class="col mb-4">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="mb-0">{{ tag[0] }}</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                {% for post in tag[1] %}
+                <li class="list-group-item">
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
             </div>
-            <ul class="list-group list-group-flush">
-              {% for post in tag[1] %}
-              <li class="list-group-item">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </li>
-              {% endfor %}
-            </ul>
           </div>
           {% endfor %}
         </div>
