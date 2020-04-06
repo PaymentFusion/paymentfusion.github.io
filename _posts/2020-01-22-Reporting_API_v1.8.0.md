@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reporting API v1.9.0
+title: Reporting API v1.8.0
 tag: Reporting
 author: AxiaMed
 ---
