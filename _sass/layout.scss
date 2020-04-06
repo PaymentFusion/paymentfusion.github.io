@@ -1,0 +1,14 @@
+
+#page-wrapper {
+  position: fixed;
+  top: 56px; // height of the navbar
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  overflow-y: scroll;
+}
+
+.scrollable {
+  overflow-y: scroll;
+}

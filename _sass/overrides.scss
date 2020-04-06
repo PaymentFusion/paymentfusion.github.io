@@ -1,0 +1,40 @@
+
+// The jekyll-theme-minimal theme was aggressively assigning the Header font-sizes.
+h1 {
+  font-size: $h1-font-size;
+}
+h2 {
+  font-size: $h2-font-size;
+}
+h3 {
+  font-size: $h3-font-size;
+}
+h4 {
+  font-size: $h4-font-size;
+}
+h5 {
+  font-size: $h5-font-size;
+}
+h6 {
+  font-size: $h6-font-size;
+}
+
+// Make inline code highlight stand our a bit more than jekyll-theme-minimal default.
+code.highlighter-rouge {
+  color: $pink;
+  background-color: $gray-100;
+  padding: $badge-padding-y $badge-padding-x;
+  border-radius: $badge-border-radius;
+  border: 1px solid $gray-300;
+  margin-right: 0.125rem;
+}
+
+// Match inline code box color for code blocks in jekyll-theme-minimal default.
+pre {
+  background-color: $gray-100;
+  border-color: $gray-300;
+}
+
+a:hover, .nav-link:hover {
+  font-weight: normal;
+}
