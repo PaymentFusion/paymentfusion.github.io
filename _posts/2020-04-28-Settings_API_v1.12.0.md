@@ -11,7 +11,7 @@ This release improves stability for the Settings API. It also adds improvements 
 
 
 #### Other
-* Updated components to address stability and patch vulnerabilities.
+* Updated components to address stability and apply security fixes.
 
 &nbsp;  
 ###### Deployment schedule
