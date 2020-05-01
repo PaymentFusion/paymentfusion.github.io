@@ -64,6 +64,6 @@ This release improves customer engagement on the terminal and adds support for h
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Tuesday, May 5 between 12:00 AM and 1:00 AM PDT
+**Sandbox**: Wednesday, May 6 between 12:00 AM and 1:00 AM PDT
 <br>
 **Production**: Thursday, May 7 between 12:00 AM and 1:00 AM PDT
