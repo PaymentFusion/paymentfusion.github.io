@@ -8,12 +8,14 @@ The Reporting API endpoint is being updated to add check status response, improv
 
 #### Features
 * Returns status and tracking information on ACH (check) transactions in the response for `GET /transactions/{id}`
-* `start_date` and `end_date` parameters on /search endpoints supports up to 90 days of data for the last 365 days
-  * Response will default to a 24 hour window after the `start_date` or prior to the `end_date` if only one value is set
-  * Response will default to a 24 hour window from the current date / time if neither value is set
+* Reporting API will return up to 90 days of data within the previous 365 days.
+    * The `start_date` and `end_date` parameters on /search endpoints are optional.
+    * The API returns transactions for the **24 hrs.** after the `start_date`, when it is the only value provided.
+    * The API returns transactions for the **24 hrs.** before the `end_date`, when it is the only value provided.
+    * The API returns transactions for the **24 hrs.** prior to the current date when omitting both values.
 
 #### Bugs
-* Resolves incorrect error codes returned in the API response:
+* Resolves incorrect error codes in the API response:
 * `GET /batches/{id}` returns 400 Invalid Id (used to return 500), when the id is missing 
 * Calling `GET` on `/transactions/search` and `/batches/search` now returns 404 Invalid API (used to return 500). Integrators should use **POST**.
 
