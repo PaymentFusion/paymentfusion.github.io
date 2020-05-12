@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PFTA—Android v2.0.3
-tag: PFTA
+tag: PFTA-Android
 author: AxiaMed
 ---
 We've updated the Payment Fusion Terminal Application for PAX A80 and A920 devices to improve stability and performance.
