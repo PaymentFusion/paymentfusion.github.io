@@ -9,7 +9,7 @@ We've updated the Payment Fusion Terminal Application for PAX A80 and A920 devic
 #### Features:
 
 * Improved error reporting around various Gateway responses
-* Add NFC Setting to observe Control Center configuration - SW-10313
+* Add NFC Setting to observe Control Center configuration
 
 #### Bug Fixes:
 
@@ -24,4 +24,4 @@ We've updated the Payment Fusion Terminal Application for PAX A80 and A920 devic
 * * *
 **PFTA—Android for PAX A80** is available now in all environments
 <br>
-**PFTA—Android for PAX A920** is available now in all environments 
+**PFTA—Android for PAX A920** is available now in all environments
