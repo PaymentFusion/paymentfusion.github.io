@@ -16,6 +16,10 @@ This initial release of the Payment Fusion Terminal Application for Android devi
 
 #### Bug Fixes:
 
+PFTA_Android_ReleaseNotes_2.0.3
+* NFC transaction failing with Mastercard is fixed 
+* NFC/tap now works with ApplePay/GooglePay 
+* Wi-Fi configuration option from the admin menu for A80 is removed as we only support ethernet currently on this model
 * NFC transaction failing with Mastercard is fixed
 * NFC/tap now works with ApplePay/GooglePay
 * Wi-Fi configuration option from the admin menu for A80 is removed as we only support ethernet currently on this model
