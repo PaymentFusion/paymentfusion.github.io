@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PFTA—Telium v1.76.0 / v1.77.0
-tag: PFTA
+tag: PFTA-Telium
 author: AxiaMed
 ---
 We've updated the Payment Fusion Terminal Application for Telium devices to support online remote key injection (ORKI), and improve performance.
