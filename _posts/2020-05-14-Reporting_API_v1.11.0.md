@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reporting API v1.11.0
-tag: Reporting
+tag: Reporting API
 author: AxiaMed
 ---
 This Reporting API update improves the stability of the platform, and improves documentation. 

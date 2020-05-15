@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reporting API v1.8.0
-tag: Reporting
+tag: Reporting API
 author: AxiaMed
 ---
 The Reporting API is being updated to improve documentation and cleans up some data segmentation issues in the database.
