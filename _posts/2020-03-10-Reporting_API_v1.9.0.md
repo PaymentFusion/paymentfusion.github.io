@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reporting API v1.9.0
-tag: Reporting
+tag: Reporting API
 author: AxiaMed
 ---
 The Reporting API is being updated to allow filtering by gateway, improve the consistency on amount fields, and resolve documentation issues and other bugs.
