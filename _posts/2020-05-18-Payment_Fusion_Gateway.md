@@ -9,7 +9,7 @@ This update adds support for healthcare, by adding data fields, enhanced IIN loo
 
 #### Features
 * The IIN lookup has been enhanced to identify healthcare FSA / HSA cards, and will return `is_healthcare: true` when it finds a match.
-* The gateway now supports the full healthcare object (below), which was introduced in [Transaction Broker v1.53.0]({% post_url 2020-04-27-Transaction_Broker_v1.53.0 %}).
+* The gateway now supports the full healthcare object, which was introduced in [Transaction Broker v1.53.0]({% post_url 2020-04-27-Transaction_Broker_v1.53.0 %}).
 * Includes additional healthcare data in the callback from Transaction Broker.
 
 #### Bug fixes
