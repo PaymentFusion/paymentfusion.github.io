@@ -15,21 +15,6 @@ This update adds support for healthcare, by adding data fields, enhanced IIN loo
 #### Bug fixes
 * Resolves an issue that prevented a callback when performing save-only operation on the hosted payment page (HPP). 
 
-##### Healthcare Object
-```javascript
-{
-  "iias_verified": "enum",
-  "healthcare_amount": "string",
-  "prescription_amount": "string",
-  "copay_amount": "string",
-  "vision_amount": "string",
-  "clinic_other_amount": "string",
-  "dental_amount": "string",
-  "transit_amount": "string",
-  "cumulative_amount": "string"
-}
-```
-
 &nbsp;  
 ###### Deployment schedule
 * * *
