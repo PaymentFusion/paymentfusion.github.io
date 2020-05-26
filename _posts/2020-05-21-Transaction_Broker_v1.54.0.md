@@ -26,4 +26,4 @@ This release adds the option to generate a QR Code that will point to our hosted
 * * *
 **Sandbox**: Tuesday, May 26 between 12:00 AM and 1:00 AM PDT
 <br>
-**Production**: Wednesday, May 27 between 12:00 AM and 1:00 AM PDT
+**Production**: Thursday, May 28 between 12:00 AM and 1:00 AM PDT
