@@ -22,6 +22,6 @@ This update adds support for healthcare, by adding data fields, enhanced IIN loo
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Wednesday, May 27th between 5:00 PM and 6:00 PM Pacific.
+**Sandbox**: Wednesday, May 27 between 5:00 PM and 6:00 PM Pacific.
 <br>
-**Production**: Thursday, May 28st between 5:00 PM and 6:00 PM Pacific.
+**Production**: Thursday, May 28 between 5:00 PM and 6:00 PM Pacific.
