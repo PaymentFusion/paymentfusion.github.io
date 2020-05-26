@@ -11,8 +11,7 @@ This release adds the option to generate a QR Code that will point to our hosted
 * Generate a QR Code for HPP.
     * New endpoint: **POST** `/scan_codes` returns a base64 encode .png image of a QR Code
     * Scanning the QR Code with a device (tablet, mobile phone, etc.) will direct the user to the Payment Fusion Gateway's HPP. 
-* ISVs can set healthcare data when processing a transaction with a token.
-* `MerchntTransId` has been added to **POST** `/hpps`
+* `MerchantTransId` has been added to **POST** `/hpps`
 
 #### Bug fixes
 * Adds error handling for failed `short_url` when generating a hosted payment page.
