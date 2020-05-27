@@ -24,6 +24,6 @@ This release adds the option to generate a QR Code that will point to our hosted
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Tuesday, May 26 between 12:00 AM and 1:00 AM PDT
+**Sandbox**: Thursday, May 28 between 12:00 AM and 1:00 AM PDT
 <br>
-**Production**: Thursday, May 28 between 12:00 AM and 1:00 AM PDT
+**Production**: TBD
