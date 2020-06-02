@@ -22,6 +22,6 @@ We've updated the Payment Fusion Terminal Application for PAX A80 and A920 devic
 &nbsp;  
 ###### Deployment schedule
 * * *
-**PFTA—Android for PAX A80** is available now in all environments
+**PFTA—Android v2.0.3 for PAX A80** is available now in all environments
 <br>
-**PFTA—Android for PAX A920** is available now in all environments
+**PFTA—Android v2.0.3 for PAX A920** is available now in all environments

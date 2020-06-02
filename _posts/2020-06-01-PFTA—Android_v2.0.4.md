@@ -1,37 +1,35 @@
 ---
 layout: post
-title: PFTA—Android v2.0.0
+title: PFTA—Android v2.0.4
 tag: PFTA-Android
 author: AxiaMed
 ---
-We've created the Payment Fusion Terminal Application to support the addition of PAX A80 and A920 devices to the Payment Fusion platform.
+We've updated the Payment Fusion Terminal Application for PAX A80 and A920 devices to improve stability and performance, added functionality to prompt job features, and support ethernet settings menu access in the PAX A80.
 
 #### Features:
 
-This initial release of the Payment Fusion Terminal Application for Android devices includes the following:
-* Substantial UX uplift to deliver a superior patient payment experience
-* The admin menu is now accessible using a standard password as opposed to a unique per terminal maintenance password in the earlier release. However select advanced menus still need per terminal unique maintenance password
-* Tipping is now supported in the confirm transaction flow
+This release of the Payment Fusion Terminal Application for PAX terminals are paired with a firmware update to the PAX A80 and includes the following:
+* The A80 allows Ethernet Settings access from the admin menu
+* UI Updates to the Tip entry and Confirm amount views
+* Prompt jobs now support markdown formatting
+* Prompt jobs can now suppress the cancel button
+* Various bug-fixes and improvements
 
 
 #### Bug Fixes:
 
-PFTA_Android_ReleaseNotes_2.0.3
-* NFC transaction failing with Mastercard is fixed 
-* NFC/tap now works with ApplePay/GooglePay 
-* Wi-Fi configuration option from the admin menu for A80 is removed as we only support ethernet currently on this model
-* NFC transaction failing with Mastercard is fixed
-* NFC/tap now works with ApplePay/GooglePay
-* Wi-Fi configuration option from the admin menu for A80 is removed as we only support ethernet currently on this model
-* Transaction processing screen now reflects the transaction state more accurately
-* A proper error message is displayed for an expired credit card
-* A transaction with confirm_amount: true now displays the amount
-* PFTA crash on an invalid transaction is now fixed
-* A manual transaction now triggers Confirm_amount flow
+PFTA_Android_ReleaseNotes_2.0.4
+* Fix prompt job redisplayed when the user changes font size after finalizing a prompt job
+* Fix PFTA update is re-prompting for registration token in staging/sandbox
+* Transaction Broker cannot cancel transaction after pin prompt is displayed
+* ISV's ability to not switch to Idle screen(In-progress, please wait)
+* Reorder Postal Code and CVV Fields in Manual Card Entry Workflow
+* Update UI for signature prompt
+
 
 &nbsp;  
 ###### Deployment schedule
 * * *
-**PFTA—Android for PAX A80** is available now in all environments
+**PFTA—Android v2.0.4 for PAX A80** is available now in all environments
 <br>
-**PFTA—Android for PAX A920** is available now in all environments
+**PFTA—Android v2.0.4 for PAX A920** is available now in all environments
