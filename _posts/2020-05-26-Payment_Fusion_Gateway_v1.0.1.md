@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Payment Fusion Gateway — 2020.05.26
+title: Payment Fusion Gateway v1.0.1
 tag: Payment Fusion Gateway
 author: AxiaMed
 ---
