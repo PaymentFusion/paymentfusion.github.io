@@ -8,6 +8,8 @@ author: AxiaMed
 This release adds features and improves support for healthcare data.
 
 #### New features
+* Supports healthcare transactions for card-not-present transactions.
+  * The healthcare object is now available on **POST** `/transactions/process/card`.
 * Read transaction response now includes healthcare data.
 * `is_healthcare` is set to false for transactions using payment devices running PFTA—Telium, or via USAePay gateway.
   * Support for the healthcare vertical is not available on USAePay.
