@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Control Center v1.42.0
+title: Control Center v1.43.0
 tag: Control Center
 author: AxiaMed
 ---
