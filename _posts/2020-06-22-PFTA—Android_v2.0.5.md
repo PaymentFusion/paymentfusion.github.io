@@ -4,7 +4,7 @@ title: PFTA—Android v2.0.5
 tag: PFTA-Android
 author: AxiaMed
 ---
-We updated the Payment Fusion Terminal Application to improve stability and performance of PAX A80 and A920 devices, added robust support for healthcare-specific parameters that will better support the use of HSA/FSA cards, and introduced new layouts and functionality for our latest terminal model, the PAX Aries 8.
+We updated the Payment Fusion Terminal Application to improve the stability and performance of PAX A80 and A920 devices, added robust support for healthcare-specific parameters that will better support the use of HSA/FSA cards, and introduced new layouts and functionality for our latest terminal model, the PAX Aries 8.
 
 #### Features:
 
