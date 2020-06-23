@@ -8,7 +8,7 @@ We updated the Payment Fusion Terminal Application to improve stability and perf
 
 #### Features:
 
-This release of the Payment Fusion Terminal Application for PAX terminals are paired with a new SDK release to improve application and card reader responsiveness:
+This release of the Payment Fusion Terminal Application for PAX terminals is paired with a new PAX SDK release to improve application and card reader responsiveness:
 * Enhancements and refinement to prompt job functionality
 * UI and layout changes to better support the Aries 8 form factor
 * Improvements to the Aries 8 UX and the combination chip/magstripe card reader
