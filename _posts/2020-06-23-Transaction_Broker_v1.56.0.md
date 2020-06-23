@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Transaction Broker v1.55.0
+title: Transaction Broker v1.56.0
 tag: Transaction Broker
 author: AxiaMed
 ---
