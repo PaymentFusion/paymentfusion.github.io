@@ -10,7 +10,7 @@ This release adds functionality for recurring payments, includes support for the
 #### Features
 * Creates recurring contracts from a transaction request.
 * Adds support for healthcare vertical on TSYS.
-* Perform LUN validation on card data via HPP.
+* Validates card number using LUHN (mod10) algorithm on the Hosted Payment Page (HPP).
 
 &nbsp;  
 ###### Deployment schedule
