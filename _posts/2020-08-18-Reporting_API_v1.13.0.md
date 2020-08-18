@@ -12,6 +12,6 @@ This Reporting API update delivers stability and performance updates.
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox:** Wednesday, June 24 between 1:00 AM and 2:00 AM PDT
+**Sandbox:** Tuesday, August 18 between 1:00 AM and 2:00 AM PDT
 <br>
-**Production:** Thursday, June 25 between 12:00 AM and 1:00 AM PDT
+**Production:** Wednesday, August 19 between 1:00 AM and 2:00 AM PDT
