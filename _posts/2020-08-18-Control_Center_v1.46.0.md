@@ -5,7 +5,7 @@ tag: Control Center
 author: AxiaMed
 ---
 
-Control Center v1.45.0 improves transactions reporting, and delivers performance and stability updates. 
+This release improves transactions reporting, and delivers performance and stability updates. 
 
 #### Features
 * ISV users (Admins, Support) may now access transactions reporting.
