@@ -25,4 +25,4 @@ This release supports overriding partial authorization settings on the merchant,
 * * *
 **Sandbox**: Tuesday, August 11 between 5:00 PM and 6:00 AM Pacific.
 <br>
-**Production**: Wednesday, August 12 between 5:00 PM and 6:00 PM Pacific.
+**Production**: Thursday, August 13 between 5:00 PM and 6:00 PM Pacific.
