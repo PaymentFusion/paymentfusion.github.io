@@ -10,19 +10,27 @@ This release adds additional features the Loopback (Approve All) Processor Handl
 #### Features
 * The Loopback (Approve All) AuthorizedAmount is populated (echoed) from the transaction request.
 * Added ResponseCode: 85 to Loopback processor.
-* Common phone number formats may now be pasted into phone-number fields.
+* Loopback (Approve All) now includes Debit option.
+* Common phone number formats may now be pasted into phone-number field when creating a TSYS merchant.
+* Added logic to handle the `iias_verified` parameter for non-Mastercard card brands.
+
 
 
 #### Bugs
-* The gateway now honors the Partial Auth Support setting of the merchant unless it's explicitly overwritten.
+* The gateway now honors the Partial Auth configuration of the merchant, unless it's explicitly overwritten by the integrator.
 * Fixes a reporting issue where the transaction's associated records were incorrect.
-* Fixes an issue the prevented cash transactions from being returned in the reporting response.
+* Resolves a situation that prevented cash transactions from being included in the reporting response.
+* Fixes an issue that included the wrong associated transactions in a refund record.
 * Batches that include captured transactions now settle properly.
 * Partial auth indicated is now supported for AuthOnly and Refund transaction requests.
+* Settlement reports now show Auth → Capture transactions.
+* Fixes an issue that displayed an incorrect amount for a partial authorization on an Auth-Only transaction.
+* Adds Loopback properties that were missing in Loopback (Approve All).
+* Removes trailing zeros from EMV data in the response queue. 
 
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Tuesday, September 8 between 5:00 PM and 6:00 AM Pacific.
+**Sandbox**: Monday, September 14 between 5:00 PM and 6:00 AM Pacific.
 <br>
-**Production**: Wednesday, September 9 between 5:00 PM and 6:00 PM Pacific.
+**Production**: Tuesday, September 15 between 5:00 PM and 6:00 PM Pacific.
