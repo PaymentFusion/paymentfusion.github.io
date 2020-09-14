@@ -26,7 +26,8 @@ This release adds additional features the Loopback (Approve All) Processor Handl
 * Settlement reports now show Auth → Capture transactions.
 * Fixes an issue that displayed an incorrect amount for a partial authorization on an Auth-Only transaction.
 * Adds Loopback properties that were missing in Loopback (Approve All).
-* Removes trailing zeros from EMV data in the response queue. 
+* Removes trailing zeros from EMV data in the response queue.
+* Fixes an issue where the partial auth setting for Healthcare, MOTO Healthcare, and MOTO is not honored.
 
 &nbsp;  
 ###### Deployment schedule
