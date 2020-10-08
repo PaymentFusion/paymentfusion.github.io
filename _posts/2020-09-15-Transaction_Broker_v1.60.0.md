@@ -30,6 +30,6 @@ This release provides consistent support for receipts across gateways, enhances 
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Thursday, October 8 between 12:00 AM and 1:00 AM PDT
+**Sandbox**: Monday, October 12 between 12:00 AM and 1:00 AM PDT
 <br>
-**Production**: Thursday, October 15 between 12:00 AM and 1:00 AM PDT
+**Production**: Monday, October 19 between 12:00 AM and 1:00 AM PDT
