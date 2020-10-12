@@ -5,13 +5,15 @@ tag: Payment Fusion Gateway
 author: AxiaMed
 ---
 
-This release resolves some issues with healthcare object validation, and CHASE / Paymentech certification. 
+This release resolves some issues with healthcare object validation, and improves reporting. 
 
 #### Features
 * Healthcare transactions must include a healthcare amount.
 * Added validation for Healthcare amount, which must be less than or equal to Total Amount of a transaction.
 * Audited the gateway logging for potentially sensitive data.
 * Added validation on `CopayAmount` and `TransitAmount` as they related to healthcare amount.
+* Adds void information to the settlement response.
+* Adds reversal information to the settlement response.
 
 
 
@@ -21,10 +23,11 @@ This release resolves some issues with healthcare object validation, and CHASE /
 * Long merchant names (25+ characters) are now tolerated in healthcare transactions.
 * The Batch Net amount is now correct when performing a credit on a force-capture.
 * Correctly sends Purchase Return Authorization (PRA) refunds to the processor.
+* Fixes an issue where the source can be unspecified on a batch report.
 
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Monday, October 5 between 5:00 PM and 6:00 AM Pacific.
+**Sandbox**: Tuesday, October 13 between 5:00 PM and 6:00 AM Pacific.
 <br>
-**Production**: Tuesday, October 6 between 5:00 PM and 6:00 PM Pacific.
+**Production**: Wednesday, October 14 between 5:00 PM and 6:00 PM Pacific.
