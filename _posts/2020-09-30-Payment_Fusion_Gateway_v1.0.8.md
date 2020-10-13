@@ -10,7 +10,7 @@ This release resolves some issues with healthcare object validation, and improve
 #### Features
 * Healthcare transactions must include a healthcare amount.
 * Added validation for Healthcare amount, which must be less than or equal to Total Amount of a transaction.
-* Audited the gateway logging for potentially sensitive data.
+* Audited the gateway logging for general security improvements.
 * Added validation on `CopayAmount` and `TransitAmount` as they related to healthcare amount.
 * Adds void information to the settlement response.
 * Adds reversal information to the settlement response.
