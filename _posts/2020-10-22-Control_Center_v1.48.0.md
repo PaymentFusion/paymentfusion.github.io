@@ -24,6 +24,6 @@ This release improves adds the ability to export merchants, and delivers perform
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Tuesday, October 27 between 12:00 AM and 1:00 AM Pacific.
+**Sandbox**: Wednesday, October 28 between 12:00 AM and 1:00 AM Pacific.
 <br>
 **Production**: Monday, November 2 between 12:00 AM and 1:00 AM Pacific.
