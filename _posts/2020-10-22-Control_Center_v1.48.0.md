@@ -5,7 +5,7 @@ tag: Control Center
 author: AxiaMed
 ---
 
-This release improves adds the ability to export merchants, and delivers performance and stability updates. 
+This release adds the ability to restart PAX terminals, improves the user interface (UI), and delivers performance and stability updates. 
 
 #### Features
 * Restart terminals running PFTA—Android (PAX hardware) from Control Center.
