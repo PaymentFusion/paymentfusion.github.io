@@ -23,6 +23,6 @@ This release improves the status details from a terminal, and delivers performan
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Monday, October 12 between 12:00 AM and 1:00 AM PDT
+**Sandbox**: Monday, November 9 between 12:00 AM and 1:00 AM PDT
 <br>
-**Production**: Monday, October 19 between 12:00 AM and 1:00 AM PDT
+**Production**: Thursday, November 12 between 12:00 AM and 1:00 AM PDT
