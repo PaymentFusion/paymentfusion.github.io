@@ -6,7 +6,7 @@ author: AxiaMed
 ---
 This release of Payment Fusion Terminal Application for Telium (PFTA—Telium) improves security and performance. 
 #### Features
-* The terminal application now connects to a new polling endpoint the improves performance.
+* The terminal application now connects to a new polling endpoint, which improves performance.
 * Card-brand standards for CVM limits have been aligned across processors.
 * Authentication token expiry may now be adjusted by Payment Fusion.
   
