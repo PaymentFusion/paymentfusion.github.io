@@ -9,7 +9,7 @@ This release prepares the gateway for Apple Pay on web features, and delivers a 
 
 #### Features
 * Apple Pay on Hosted Payment Page is testable via ISV Mock interface.
-  * **Note**: Apple Pay via the web is still being certified and cannot be used to preform transaction with production merchant accounts. 
+  * **Note**: Certification for Apple Pay via the web has not been completed. 
 
 #### Bugs
 * Fixes an issue that omitted the SEC codes from the Virtual Terminal when processing checks.
