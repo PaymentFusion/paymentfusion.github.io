@@ -22,6 +22,6 @@ This release includes features and fixes for Apple Pay and Google Pay on the web
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Thursday, February 18 between 5:00 PM and 6:00 AM Pacific.
+**Sandbox**: Tuesday, February 23 between 5:00 PM and 6:00 AM Pacific.
 <br>
-**Production**: Monday, February 22 between 5:00 PM and 6:00 PM Pacific.
+**Production**: Wednesday, February 24 between 5:00 PM and 6:00 PM Pacific.
