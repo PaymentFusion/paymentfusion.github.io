@@ -9,8 +9,6 @@ This release enhances the user experience in Control Center and improves reporti
 
 #### Features
 * The `is_partial_auth` value has been added to reporting data set.
-* The reporting directories have been renamed and updated to improve clarity.
-
 
 #### Bugs
 * Reporting: Fixes an issue where closed batches would not get synced correctly.
