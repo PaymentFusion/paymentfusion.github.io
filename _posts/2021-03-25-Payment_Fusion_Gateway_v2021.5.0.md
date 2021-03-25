@@ -16,7 +16,7 @@ This release improves the stability and performance of the gateway.
 &nbsp;  
 ###### Deployment schedule
 * * *
-**Sandbox**: Monday, March 29 between 5:00 PM and 6:00 AM Pacific.
+**Sandbox**: Wednesday, March 31 between 5:00 PM and 6:00 AM Pacific.
 <br>
-**Production**: Tuesday, March 30 between 5:00 PM and 6:00 PM Pacific.
+**Production**: Thursday, April 1 between 5:00 PM and 6:00 PM Pacific.
 
